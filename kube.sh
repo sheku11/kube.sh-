@@ -68,7 +68,7 @@ kops update cluster --name reyaz.k8s.local --state=$KOPS_STATE_STORE --yes --adm
 # Step 9: Validate the cluster (wait 10–15 minutes)
 kops validate cluster --state=$KOPS_STATE_STORE
 
-
+sh kops.sh 
 
 wq!
 
